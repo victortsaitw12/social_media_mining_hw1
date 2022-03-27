@@ -2,9 +2,44 @@
 
 course.csv 為課程資訊列表
 
+> 欄位
+>> _id : 課程編號
+>> title : 課程名稱
+>> numRating : 評價數量
+>> averageRating : 平均評價分數
+>> totalVideoLengthInSeconds : 課程長度
+>> createdAt : 課程建立時間
+>> numSoldTickets : 參與學生數量
+>> price : 優惠價
+>> preOrderedPrice : 原價
+>> publishTime : 課程開放時間
+>> groupId : 課程主類別
+>> groupTitle : 課程主類別中文名稱
+>> groupName : 課程主類別英文文名稱
+>> subGroupId : 課程子類別
+>> subGroupTitle : 課程子類別中文名稱
+>> subGroupName : 課程子類別英文文名稱
+
+
 student.csv 為學生資訊列表
 
+> 欄位
+>> _id : 學生編號
+>> name : 學生姓名
+>> numBookmarkedCourse : 感興趣的課程數目
+>> numBookmarkedIdea : 感興趣的文章數目
+>> numBoughtCourse : 參與的課程數目
+>> numCreation
+>> numIdea : 新增文章數目
+>> numTaughtCourse : 開課的數目
+
+
 Link.csv 為學生與課程的關聯列表
+
+> 欄位
+>> student : 學生編號
+>> course : 課程編號
+>> type : 關聯的屬性，例如：學生有報名，學生有興趣，學生是這堂課的老師
 
 
 ## 執行方式
